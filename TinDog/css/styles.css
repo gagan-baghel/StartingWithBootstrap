@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu&display=swap');
+*{
+	font-family: 'Montserrat';
+	scroll-behavior: smooth;
+}
+/* TAGS */
+h1{
+	font-size: 3.5rem;
+	line-height: 1.5;
+
+}
+
+h2{
+	font-size: 2.5rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+body{
+	overflow-x: hidden;
+}
+p{
+	color:#8f8f8f;
+}
+
+/* ID'S */
+#footer,#cta,#pricing{
+	text-align: center;
+
+}
+#title{
+	position: relative;
+	color: white;
+	background-color:#e43f58;
+	padding-bottom: 200px;
+}
+.timg{
+	/* width:63%; */
+	transform: rotate(30deg) translateX(13%);
+	position: absolute;
+}
+#features{
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+#features h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+#features i{
+	padding: 10%;
+	color: #e4553f;
+}
+#features i:hover{
+	color: #ff4c68;
+}
+
+
+/* CLASSES */
+.container-fluid{
+	padding: 3% 9%;
+}
+/* navbar */
+.navbar{
+	margin-bottom: 51px;
+}
+.navbar li{
+	font-size:1.3rem;
+	padding: 0 25px;
+
+}
+.navbar-brand{
+	font-family: 'Ubuntu';
+	font-size: 2.5rem;
+}
+.download-button{
+	margin: 10% 4% 0 0;
+}
+.fsec{
+	padding: 8% 4%;
+}
+
+/* testimonial */
+#testimonials{
+	color: white;
+	height: 500px;
+	background-color:  #e4553f;
+
+}
+#testimonials img{
+	border-radius: 50%;
+	width: 10%;
+}
+#press{
+	background-color:  #e4553f;
+	padding: 0 0 3% 0;
+}
+.press-img{
+height: 30px;
+padding-left: 50px;
+padding-right: 50px;
+}
+.carousel-item{
+	Padding: 8% 19%;
+
+}
+.card.btn{
+	width:100%;
+
+}
+
+/* <!-- Pricing --> */
+
+#pricing{
+	padding: 8% 8%;
+	line-height: 2;
+}
+.card{
+	margin: 0 4%;
+	border: 1px solid #f4f4f4;
+}
+.card:hover{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-header{
+	background-color:  #e43f58;
+}
+.card-deck{
+	padding: 4%;
+}
+
+
+
+
+
+/* pre footer-part */
+#cta{
+	background-color: #e43f58;
+	padding: 15% 16%;
+}
+.end-btn{
+	margin: 2% 1%;
+	margin-bottom: 0;
+}
+#cta h3{
+	font-size: 3rem;
+	font-weight: bold;
+	color: #fff;
+}
+
+/* Footer */
+#footer{
+	background-color: #ffffff;
+	color:white;
+	margin: 5% 0;
+}
+#footer i{
+	font-size:2rem;
+	color:rgb(0, 0, 0);
+	padding: 3% 2%;
+	padding-bottom: 1.5%;
+}
+#footer i:hover{
+	color: #e43f58;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1160px) {
+
+	.timg{
+		/* width:63%; */
+		transform: rotate(0);
+		position: static;
+		padding-top: 30px;
+		padding-bottom: 0;
+	}
+	#title{
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+}
+
