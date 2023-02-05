@@ -4,7 +4,10 @@ NETLIFY HOISTED LINK----- https://responsive-tindog-bootstrap.netlify.app/
 
 #Designed With the Help of |-- HTML --- CSS --- JAVASCRIPT --| 
 
-This is landing page website. Tindog is like tinder for dogs :). This is responsive, so it be opened in laptop and phone also.
+This is landing page website.<br>
+Tindog is like tinder for dogs :). This is responsive,<br>
+so it be opened in laptop and phone also.<br>
+it is made using bootstrap for designing the structure of website.
 
 ** HERE IS THE VISUAL REPRESENTATION OF THIS PROJECT **
 
